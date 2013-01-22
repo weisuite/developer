@@ -1,0 +1,29 @@
+ul{
+  margin:20px 0;
+  padding:0;
+}
+ul li{
+  border: 1px solid gray;
+  list-style: none;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+ul li>div{
+  border:0 solid black;
+  border-width:0 0 1px 0;
+}
+
+div>span.label{
+  width: 300px;
+  display:inline-block;
+  color:gray;
+}
+
+span.label+input{
+  width: 380px;
+}
+
+.button{
+  cursor: pointer;
+  font-weight: bold;
+}
